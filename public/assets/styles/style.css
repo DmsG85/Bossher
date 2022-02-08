@@ -1,0 +1,136 @@
+
+/*************** Générale *******************/
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+a:hover {
+    font-family: 'Space Mono', monospace;
+    color: #129d67;
+    
+}
+/*************** Header Nav *******************/
+.navbar-nav{
+    text-align: center;
+}
+/*************** Main *******************/
+#main_gd{
+    background-color: #99c9c8;;
+}
+.img_gd{
+    width: 450px;
+    height: 450px;
+}
+.lead{
+    color: #171a21;
+    font-weight: bold;
+}
+.para_gd{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+}
+/* Cercle */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+#cercle_resume_gd{
+    background-color: #129d67;
+}
+/*************** Footer *******************/
+#footer_gd{
+    background-color: #171a21;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    
+}
+
+/*************** Formulaire de connexion *******************/
+.colgauche_kc{
+    background: #6667AB;
+}
+
+/* ******************** Contact ********************* */
+.h1_kb{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+}
+  
+.h5_kb{
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+}
+.p_kb{
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+    font-weight: bold;
+    
+}
+
+.h4_kb{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+  
+#main_kb{
+  
+    background: url("../img/contact_fond.jpg") ; 
+ 
+    
+}
+/* ******************************* test google maps ********************* */
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    
+    .map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+/**************** Page Profil *************************/
+.photo_kc {
+    width: 80px;
+}
